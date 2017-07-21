@@ -1,6 +1,6 @@
 {
   "name": "coral-password-tasks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "password-tasks.js",
   "description": "Functions from the 'bcrypt' module wraped inside folktale/data.task Tasks, for easy function composition using Ramda",
   "scripts": {
