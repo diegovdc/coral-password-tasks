@@ -15,7 +15,7 @@ gulp.task('default', function() {
 						'../../std-library.js',
 						'../../routes.js',
 						'../../mongo-attachments.js'
-						], ['mocha']);
+						], gulp.series(['mocha']));
 });
 
 gulp.task('mocha', function() {

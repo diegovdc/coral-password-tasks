@@ -2,21 +2,22 @@
   "name": "coral-password-tasks",
   "version": "1.0.1",
   "main": "password-tasks.js",
-  "description": "Functions from the 'bcrypt' module wraped inside folktale/data.task Tasks, for easy function composition using Ramda",
+  "description": "Functions from the 'bcrypt-nodejs' module wrapped inside folktale/data.task Tasks, for easy function composition using Ramda",
   "scripts": {
-    "test": "./node_modules/.bin/mocha --colors --reporter spec ./**/*spec.js"
+    "test": "./node_modules/.bin/mocha --colors --reporter spec ./**/*spec.js",
+    "gulp": "gulp"
   },
   "author": "Diego Villaseñor",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-mocha": "^4.3.1",
-    "gulp-watch": "^4.3.11",
     "chai": "^3.5.0",
-    "mocha": "^3.2.0"
+    "gulp": "4.0.0",
+    "gulp-mocha": "6.0.0",
+    "gulp-watch": "5.0.0",
+    "mocha": "5.2.0"
   },
   "dependencies": {
-    "bcrypt": "^1.0.2",
+    "bcrypt-nodejs": "0.0.3",
     "data.task": "^3.1.1",
     "ramda": "^0.23.0"
   }
